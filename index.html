@@ -1,0 +1,6 @@
+<h4>Reading in <code>{{.BasePath}}</code></h4>
+<ul>
+  {{ range .FilePaths }}
+    <li><a href="/file/{{.}}">{{.}}</a></li>
+  {{ end }}
+</ul>
