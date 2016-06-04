@@ -19,3 +19,5 @@ GET /
 GET /file/:file_path
 ```
 - renders file
+
+> Note: Makefile is catered to my GOPATH of ~/gopaths/mdprev
